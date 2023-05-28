@@ -1,0 +1,186 @@
+/* Targetting each element */
+*  
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Targetting the header element */
+header
+{
+    background-color: black;
+    height: 7vh;
+}
+
+/* Targetting the li element which is inside header element */
+header li
+{
+    display: inline-block;
+    padding: 1%;
+}
+
+/* Targetting a class named "box" */
+.box1
+{
+    background-color: violet;
+    height: 10vh;
+    width: 20%;
+    position: absolute;
+    top: 7%;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in-out;
+}
+
+
+.box1:hover
+{
+    width: 60%;
+}
+
+.box2
+{
+    background-color: indigo;
+    height: 10vh;
+    width: 20%;
+    top: 17%;
+    position: absolute;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in-out;
+}
+
+
+.box2:hover
+{
+    width: 60%;
+}
+
+
+.box3
+{
+    background-color: blue;
+    height: 10vh;
+    width: 20%;
+    position: absolute;
+    top: 27%;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in-out;
+}
+
+
+.box3:hover
+{
+    width: 60%;
+}
+
+.box4
+{
+    background-color: green;
+    height: 10vh;
+    width: 20%;
+    position: absolute;
+    top: 37%;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in-out;
+}
+
+
+.box4:hover
+{
+    width: 60%;
+}
+
+.box5
+{
+    background-color: yellow;
+    height: 10vh;
+    width: 20%;
+    position: absolute;
+    top: 47%;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in-out;
+}
+
+
+.box5:hover
+{
+    width: 60%;
+}
+
+
+
+.box6
+{
+    background-color: Orange;
+    height: 10vh;
+    width: 20%;
+    position: absolute;
+    top: 57%;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in-out;
+    
+}
+
+
+.box6:hover
+{
+    width: 60%;
+}
+
+
+.box7
+{
+    background-color: red;
+    height: 10vh;
+    width: 20%;
+    position: absolute;
+    top: 67%;
+    transition-property: width;
+    transition-duration: 0.5s;
+    transition-timing-function:ease-in-out;
+}
+
+
+.box7:hover
+{
+    width: 60%;
+}
+
+#img
+{
+    position: absolute;
+    right: 10%;
+    top: 10%;
+    height: 69vh;
+    width: 30%;
+    text-align: center;
+}
+
+#img img
+{
+    width: 100%;
+}
+
+body
+{
+    background-color:bisque;
+}
+
+#color
+{
+    text-align: center;
+    color: red;
+    background-color: black;
+    position: absolute;
+    top: 85%;
+    left: 35%;
+    border: 2px solid red;
+    border-radius: 40%;
+    transform: scale(2);
+}
